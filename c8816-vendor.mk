@@ -22,7 +22,6 @@ $(call inherit-product, vendor/huawei/c8816/c8816-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
-    qcrilmsgtunnel \
     TimeService
 
 # Prebuilt jars
