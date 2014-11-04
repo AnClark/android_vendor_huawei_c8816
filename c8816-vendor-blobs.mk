@@ -189,7 +189,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8816/proprietary/etc/quipc.conf:system/etc/quipc.conf \
     vendor/huawei/c8816/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/huawei/c8816/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-	 vendor/huawei/c8816/proprietary/lib/hw/audio.primary.msm8610.so:system/lib/hw/audio.primary.msm8610.so \
 	 vendor/huawei/c8816/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
 	 vendor/huawei/c8816/proprietary/lib/hw/camera.msm8610.so:system/lib/hw/camera.msm8610.so \
     vendor/huawei/c8816/proprietary/lib/drm/libdrmhwomavoneplugin.so:system/lib/drm/libdrmhwomavoneplugin.so \
@@ -344,9 +343,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8816/proprietary/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so:system/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so \
     vendor/huawei/c8816/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
  	 vendor/huawei/c8816/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
+  	 vendor/huawei/c8816/proprietary/vendor/lib/libCommandSvc.so:system/lib/vendor/libCommandSvc.so \
   	 vendor/huawei/c8816/proprietary/vendor/lib/libxml.so:system/lib/vendor/libxml.so \
   	 vendor/huawei/c8816/proprietary/vendor/lib/libconfigdb.so:system/lib/vendor/libconfigdb.so \
-  	 vendor/huawei/c8816/proprietary/vendor/lib/libCommandSvc.so:system/lib/vendor/libCommandSvc.so \
     vendor/huawei/c8816/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/huawei/c8816/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/huawei/c8816/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
@@ -389,9 +388,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8816/proprietary/vendor/lib/libalsautils.so:system/vendor/lib/libalsautils.so \
     vendor/huawei/c8816/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
     vendor/huawei/c8816/proprietary/vendor/lib/libswdec_2dto3d.so:system/vendor/lib/libswdec_2dto3d.so \
-    vendor/huawei/c8816/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
-    vendor/huawei/c8816/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/huawei/c8816/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/huawei/c8816/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/huawei/c8816/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
     vendor/huawei/c8816/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
