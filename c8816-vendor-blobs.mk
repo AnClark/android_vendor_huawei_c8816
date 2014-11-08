@@ -118,20 +118,29 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8816/proprietary/etc/firmware/cyttsp4_fw_g620.bin:system/etc/firmware/cyttsp4_fw_g620.bin \
     vendor/huawei/c8816/proprietary/etc/firmware/cyttsp4_fw_g730.bin:system/etc/firmware/cyttsp4_fw_g730.bin \
     vendor/huawei/c8816/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-	 vendor/huawei/c8816/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+	vendor/huawei/c8816/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+	vendor/huawei/c8816/proprietary/etc/firmware/g630_junda_fw.img:system/etc/firmware/g630_junda_fw.img \
+    vendor/huawei/c8816/proprietary/etc/firmware/g630_ofilm_fw.img:system/etc/firmware/g630_ofilm_fw.img \
+    vendor/huawei/c8816/proprietary/etc/firmware/g630_ofilm2_fw.img:system/etc/firmware/g630_ofilm2_fw.img \
+    vendor/huawei/c8816/proprietary/etc/firmware/goodix_fw_g630.bin:system/etc/firmware/goodix_fw_g630.bin \
     vendor/huawei/c8816/proprietary/etc/firmware/synaptics_fw_g630.img:system/etc/firmware/synaptics_fw_g630.img \
     vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv.bin:system/etc/wifi/WCNSS_hw_wlan_nv.bin \
- 	 vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G6_C00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G6_C00.bin \
- 	 vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G6_U00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G6_U00.bin \
- 	 vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G6_U10.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G6_U10.bin \
- 	 vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G6_U34.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G6_U34.bin \
- 	 vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G6_U251.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G6_U251.bin \
- 	 vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G620_C10.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G620_C10.bin \
- 	 vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G620D.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G620D.bin \
- 	 vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G730_C10.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G730_C10.bin \
- 	 vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_Y530-U00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_Y530-U00.bin \
- 	 vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_Y530-U051.bin:system/etc/wifi/WCNSS_hw_wlan_nv_Y530-U051.bin \
-	 vendor/huawei/c8816/proprietary/etc/sound_param/default/Bluetooth_cal.acdb:system/etc/sound_param/default/Bluetooth_cal.acdb \
+ 	vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G6_C00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G6_C00.bin \
+ 	vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G6_U00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G6_U00.bin \
+ 	vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G6_U10.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G6_U10.bin \
+ 	vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G6_U34.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G6_U34.bin \
+ 	vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G6_U251.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G6_U251.bin \
+ 	vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G615_U10.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G615_U10.bin \
+ 	vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G620_C10.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G620_C10.bin \
+ 	vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G620D.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G620D.bin \
+ 	vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G630_U00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G630_U00.bin \
+ 	vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G630_U20.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G630_U20.bin \
+ 	vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G630_U251.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G630_U251.bin \
+ 	vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G730_C10.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G730_C10.bin \
+ 	vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_Y330_C00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_Y330_C00.bin \
+ 	vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_Y530-U00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_Y530-U00.bin \
+ 	vendor/huawei/c8816/proprietary/etc/wifi/WCNSS_hw_wlan_nv_Y530-U051.bin:system/etc/wifi/WCNSS_hw_wlan_nv_Y530-U051.bin \
+	vendor/huawei/c8816/proprietary/etc/sound_param/default/Bluetooth_cal.acdb:system/etc/sound_param/default/Bluetooth_cal.acdb \
     vendor/huawei/c8816/proprietary/etc/sound_param/default/General_cal.acdb:system/etc/sound_param/default/General_cal.acdb \
     vendor/huawei/c8816/proprietary/etc/sound_param/default/Global_cal.acdb:system/etc/sound_param/default/Global_cal.acdb \
     vendor/huawei/c8816/proprietary/etc/sound_param/default/Handset_cal.acdb:system/etc/sound_param/default/Handset_cal.acdb \
@@ -224,7 +233,6 @@ PRODUCT_COPY_FILES += \
 	 vendor/huawei/c8816/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
   	 vendor/huawei/c8816/proprietary/lib/libqmi_oem_api.so:system/lib/libqmi_oem_api.so \
   	 vendor/huawei/c8816/proprietary/lib/libxml2.so:system/lib/libxml2.so \
-	 vendor/huawei/c8816/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
   	 vendor/huawei/c8816/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
   	 vendor/huawei/c8816/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
   	 vendor/huawei/c8816/proprietary/lib/liboeminfo_oem_api.so:system/lib/liboeminfo_oem_api.so \
