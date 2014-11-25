@@ -197,7 +197,9 @@ PRODUCT_COPY_FILES += \
   	 vendor/huawei/c8816/proprietary/lib/libxml2.so:system/lib/libxml2.so \
   	 vendor/huawei/c8816/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
   	 vendor/huawei/c8816/proprietary/lib/liboeminfo_oem_api.so:system/lib/liboeminfo_oem_api.so \
+	 vendor/huawei/c8816/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
 	 vendor/huawei/c8816/proprietary/lib/libril.so:system/lib/libril.so \
+	 vendor/huawei/c8816/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/huawei/c8816/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so \
     vendor/huawei/c8816/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so \
     vendor/huawei/c8816/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so \
