@@ -70,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8816/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
     vendor/huawei/c8816/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/huawei/c8816/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
+    vendor/huawei/c8816/proprietary/bin/dsdnsutil:system/bin/dsdnsutil \
     vendor/huawei/c8816/proprietary/bin/hwnff:system/bin/hwnff \
     vendor/huawei/c8816/proprietary/bin/hwnffserver:system/bin/hwnffserver \
     vendor/huawei/c8816/proprietary/bin/iperf:system/bin/iperf \
@@ -90,6 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8816/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/huawei/c8816/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/huawei/c8816/proprietary/bin/cnd:system/bin/cnd \
+    vendor/huawei/c8816/proprietary/bin/curl:system/bin/curl \
     vendor/huawei/c8816/proprietary/bin/load_oemlogo:system/bin/load_oemlogo \
     vendor/huawei/c8816/proprietary/bin/flatland:system/bin/flatland \
     vendor/huawei/c8816/proprietary/bin/mmi:system/bin/mmi \
@@ -178,6 +180,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8816/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
     vendor/huawei/c8816/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/huawei/c8816/proprietary/lib/libhdr.so:system/lib/libhdr.so \
+    vendor/huawei/c8816/proprietary/lib/libhwnv.so:system/lib/libhwnv.so \
     vendor/huawei/c8816/proprietary/lib/libalsa-intf.so:system/lib/libalsa-intf.so \
 	 vendor/huawei/c8816/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/huawei/c8816/proprietary/lib/libbtaddr.so:system/lib/libbtaddr.so \
