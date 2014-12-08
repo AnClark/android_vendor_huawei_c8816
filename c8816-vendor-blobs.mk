@@ -53,7 +53,6 @@ PRODUCT_COPY_FILES += \
 	 vendor/huawei/c8816/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/huawei/c8816/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
     vendor/huawei/c8816/proprietary/bin/quipc_main:system/bin/quipc_main \
-    $(PATH_FILES)/bin/qrngtest:system/bin/qrngtest \
 	 vendor/huawei/c8816/proprietary/bin/usbhub:system/bin/usbhub \
 	 vendor/huawei/c8816/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/huawei/c8816/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
@@ -538,13 +537,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8816/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/huawei/c8816/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/huawei/c8816/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-	 vendor/huawei/c8816/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0041_Generic_PreI2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0041_Generic_PreI2C_NCD_Signed_configdata.ncd \
-	 vendor/huawei/c8816/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0041_Generic_I2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0041_Generic_I2C_NCD_Signed_configdata.ncd \
-    vendor/huawei/c8816/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-	 vendor/huawei/c8816/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
-	 vendor/huawei/c8816/proprietary/vendor/speccfg/spec.default.prop:system/vendor/speccfg/spec.default.prop \
-	 vendor/huawei/c8816/proprietary/vendor/speccfg/switch_spec.sh:system/vendor/speccfg/switch_spec.sh \
-	 vendor/huawei/c8816/proprietary/vendor/speccfg/GMSInstall.sh:system/vendor/speccfg/GMSInstall.sh \
     vendor/huawei/c8816/proprietary/xbin/qlogd:system/xbin/qlogd \
     vendor/huawei/c8816/proprietary/xbin/RfTest:system/xbin/RfTest \
     vendor/huawei/c8816/proprietary/xbin/wifi_aging:system/xbin/wifi_aging \
