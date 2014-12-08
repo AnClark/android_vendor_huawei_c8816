@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     $(PATH_FILES)/bin/afar:system/bin/afar \
 	 vendor/huawei/c8816/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/huawei/c8816/proprietary/bin/akmd09911:system/bin/akmd09911 \
-	 vendor/huawei/c8816/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
 	 vendor/huawei/c8816/proprietary/bin/btnvtool:system/bin/btnvtool \
 	 vendor/huawei/c8816/proprietary/bin/charger_monitor:system/bin/charger_monitor \
 	 vendor/huawei/c8816/proprietary/bin/dun-server:system/bin/dun-server \
@@ -48,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8816/proprietary/bin/radish:system/bin/radish \
     vendor/huawei/c8816/proprietary/bin/radioinfo:system/bin/radioinfo \
 	 vendor/huawei/c8816/proprietary/bin/wfd:system/bin/wfd \
-	 vendor/huawei/c8816/proprietary/bin/sapd:system/bin/sapd \
     vendor/huawei/c8816/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	 vendor/huawei/c8816/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/huawei/c8816/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
@@ -60,15 +58,12 @@ PRODUCT_COPY_FILES += \
 	 vendor/huawei/c8816/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/huawei/c8816/proprietary/bin/wlan_detect:system/bin/wlan_detect \
     vendor/huawei/c8816/proprietary/bin/wmdsi:system/bin/wmdsi \
-    vendor/huawei/c8816/proprietary/bin/bootanimationex:system/bin/bootanimationex \
     vendor/huawei/c8816/proprietary/bin/brctl:system/bin/brctl \
-    vendor/huawei/c8816/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/huawei/c8816/proprietary/bin/diag_callback_client:system/bin/diag_callback_client \
     vendor/huawei/c8816/proprietary/bin/diag_dci_sample:system/bin/diag_dci_sample \
     vendor/huawei/c8816/proprietary/bin/diag_socket_log:system/bin/diag_socket_log \
     vendor/huawei/c8816/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
     vendor/huawei/c8816/proprietary/bin/diag_klog:system/bin/diag_klog \
-    vendor/huawei/c8816/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/huawei/c8816/proprietary/bin/dsdnsutil:system/bin/dsdnsutil \
     vendor/huawei/c8816/proprietary/bin/hwnff:system/bin/hwnff \
     vendor/huawei/c8816/proprietary/bin/hwnffserver:system/bin/hwnffserver \
@@ -80,24 +75,18 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8816/proprietary/bin/iwpriv:system/bin/iwpriv \
     vendor/huawei/c8816/proprietary/bin/n_smux:system/bin/n_smux \
     vendor/huawei/c8816/proprietary/bin/nl_listener:system/bin/nl_listener \
-    vendor/huawei/c8816/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/huawei/c8816/proprietary/bin/system_server:system/bin/system_server \
     vendor/huawei/c8816/proprietary/bin/wipe-eeprom:system/bin/wipe-eeprom \
     vendor/huawei/c8816/proprietary/bin/oeminfo_server:system/bin/oeminfo_server \
     vendor/huawei/c8816/proprietary/bin/oem_sar_main:system/bin/oem_sar_main \
     vendor/huawei/c8816/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
-    vendor/huawei/c8816/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/huawei/c8816/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
-    vendor/huawei/c8816/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
-    vendor/huawei/c8816/proprietary/bin/cnd:system/bin/cnd \
     vendor/huawei/c8816/proprietary/bin/curl:system/bin/curl \
     vendor/huawei/c8816/proprietary/bin/load_oemlogo:system/bin/load_oemlogo \
     vendor/huawei/c8816/proprietary/bin/flatland:system/bin/flatland \
-    vendor/huawei/c8816/proprietary/bin/mmi:system/bin/mmi \
     vendor/huawei/c8816/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/huawei/c8816/proprietary/bin/gps_check:system/bin/gps_check \
     vendor/huawei/c8816/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
-    vendor/huawei/c8816/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     vendor/huawei/c8816/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/huawei/c8816/proprietary/bin/mm-jpeg-enc-test-client:system/bin/mm-jpeg-enc-test-client \
     vendor/huawei/c8816/proprietary/bin/mm-jpeg-dec-test:system/bin/mm-jpeg-dec-test \
