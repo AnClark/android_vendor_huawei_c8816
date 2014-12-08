@@ -163,6 +163,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8816/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/huawei/c8816/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
 	 vendor/huawei/c8816/proprietary/lib/hw/camera.msm8610.so:system/lib/hw/camera.msm8610.so \
+	 vendor/huawei/c8816/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/huawei/c8816/proprietary/lib/drm/libdrmhwomavoneplugin.so:system/lib/drm/libdrmhwomavoneplugin.so \
     vendor/huawei/c8816/proprietary/lib/libdrm1.so:system/lib/libdrm1.so \
     vendor/huawei/c8816/proprietary/lib/libdrm1_jni.so:system/lib/libdrm1_jni.so \
