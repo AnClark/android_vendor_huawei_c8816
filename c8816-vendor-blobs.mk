@@ -175,9 +175,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8816/proprietary/lib/libminui.so:system/lib/libminui.so \
     vendor/huawei/c8816/proprietary/lib/libmmirunning.so:system/lib/libmmirunning.so \
     vendor/huawei/c8816/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/huawei/c8816/proprietary/lib/libFaceDetection.so:system/lib/libFaceDetection.so \
     vendor/huawei/c8816/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/huawei/c8816/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/huawei/c8816/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
+    vendor/huawei/c8816/proprietary/lib/libtrack.so:system/lib/libtrack.so \
     vendor/huawei/c8816/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/huawei/c8816/proprietary/lib/libhdr.so:system/lib/libhdr.so \
     vendor/huawei/c8816/proprietary/lib/libhwnv.so:system/lib/libhwnv.so \
@@ -188,6 +190,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8816/proprietary/lib/libbtpower.so:system/lib/libbtpower.so \
     vendor/huawei/c8816/proprietary/lib/libbtpowertest.so:system/lib/libbtpowertest.so \
     vendor/huawei/c8816/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/huawei/c8816/proprietary/lib/libmrc_cg_mfdenoise.so:system/lib/libmrc_cg_mfdenoise.so \
+    vendor/huawei/c8816/proprietary/lib/libmrc_cg_postprocess.so:system/lib/libmrc_cg_postprocess.so \
     vendor/huawei/c8816/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/huawei/c8816/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/huawei/c8816/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
