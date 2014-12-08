@@ -157,11 +157,6 @@ PRODUCT_COPY_FILES += \
 	 vendor/huawei/c8816/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/huawei/c8816/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/huawei/c8816/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
-    vendor/huawei/c8816/proprietary/etc/lowi.conf:system/etc/lowi.conf \
-    vendor/huawei/c8816/proprietary/etc/msap.conf:system/etc/msap.conf \
-    vendor/huawei/c8816/proprietary/etc/quipc.conf:system/etc/quipc.conf \
-    vendor/huawei/c8816/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/huawei/c8816/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
 	 vendor/huawei/c8816/proprietary/lib/hw/camera.msm8610.so:system/lib/hw/camera.msm8610.so \
 	 vendor/huawei/c8816/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/huawei/c8816/proprietary/lib/drm/libdrmhwomavoneplugin.so:system/lib/drm/libdrmhwomavoneplugin.so \
