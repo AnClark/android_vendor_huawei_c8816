@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
 	 vendor/huawei/c8816/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/huawei/c8816/proprietary/bin/fmconfig:system/bin/fmconfig \
 	 vendor/huawei/c8816/proprietary/bin/garden_app:system/bin/garden_app \
+	 vendor/huawei/c8816/proprietary/bin/gps_check:system/bin/gps_check \
     vendor/huawei/c8816/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/huawei/c8816/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
 	 vendor/huawei/c8816/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -85,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8816/proprietary/bin/load_oemlogo:system/bin/load_oemlogo \
     vendor/huawei/c8816/proprietary/bin/flatland:system/bin/flatland \
     vendor/huawei/c8816/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
-    vendor/huawei/c8816/proprietary/bin/gps_check:system/bin/gps_check \
     vendor/huawei/c8816/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/huawei/c8816/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/huawei/c8816/proprietary/bin/mm-jpeg-enc-test-client:system/bin/mm-jpeg-enc-test-client \
@@ -155,18 +155,18 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8816/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
 	 vendor/huawei/c8816/proprietary/lib/hw/camera.msm8610.so:system/lib/hw/camera.msm8610.so \
 	 vendor/huawei/c8816/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+	 vendor/huawei/c8816/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
     vendor/huawei/c8816/proprietary/lib/drm/libdrmhwomavoneplugin.so:system/lib/drm/libdrmhwomavoneplugin.so \
     vendor/huawei/c8816/proprietary/lib/libdrm1.so:system/lib/libdrm1.so \
     vendor/huawei/c8816/proprietary/lib/libdrm1_jni.so:system/lib/libdrm1_jni.so \
     vendor/huawei/c8816/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/huawei/c8816/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
     vendor/huawei/c8816/proprietary/lib/libdexanalysis.so:system/lib/libdexanalysis.so \
     vendor/huawei/c8816/proprietary/lib/libexif_jni.so:system/lib/libexif_jni.so \
     vendor/huawei/c8816/proprietary/lib/libkpencore.so:system/lib/libkpencore.so \
     vendor/huawei/c8816/proprietary/lib/libminui.so:system/lib/libminui.so \
     vendor/huawei/c8816/proprietary/lib/libmmirunning.so:system/lib/libmmirunning.so \
-    vendor/huawei/c8816/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/huawei/c8816/proprietary/lib/libFaceDetection.so:system/lib/libFaceDetection.so \
+    vendor/huawei/c8816/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/huawei/c8816/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/huawei/c8816/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/huawei/c8816/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
@@ -174,7 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8816/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/huawei/c8816/proprietary/lib/libhdr.so:system/lib/libhdr.so \
     vendor/huawei/c8816/proprietary/lib/libhwnv.so:system/lib/libhwnv.so \
-    vendor/huawei/c8816/proprietary/lib/libalsa-intf.so:system/lib/libalsa-intf.so \
 	 vendor/huawei/c8816/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/huawei/c8816/proprietary/lib/libbtaddr.so:system/lib/libbtaddr.so \
     vendor/huawei/c8816/proprietary/lib/libbtaddrtest.so:system/lib/libbtaddrtest.so \
@@ -192,7 +191,6 @@ PRODUCT_COPY_FILES += \
 	 vendor/huawei/c8816/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
 	 vendor/huawei/c8816/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
   	 vendor/huawei/c8816/proprietary/lib/libqmi_oem_api.so:system/lib/libqmi_oem_api.so \
-  	 vendor/huawei/c8816/proprietary/lib/libxml2.so:system/lib/libxml2.so \
   	 vendor/huawei/c8816/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
   	 vendor/huawei/c8816/proprietary/lib/liboeminfo_oem_api.so:system/lib/liboeminfo_oem_api.so \
 	 vendor/huawei/c8816/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
